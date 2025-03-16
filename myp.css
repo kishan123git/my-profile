@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("b4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo img{
+    width: 71px;
+    height: 66px;
+    border-radius: 41px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.logo img:hover{
+    box-shadow: 0px 0px 20px rgb(244, 137, 5);
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.listtype{
+    backdrop-filter: blur(-10px);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 37px;
+}
+.listtype h1{
+    color: white;
+    margin-left: 28px;
+    transition: 0.4s ease;
+}
+.listtype h1:hover{
+    color: rgb(244, 137, 5);
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    height: 64px;
+    width: 500px;
+}
+
+.list{
+    margin-left: 60px;
+    list-style: none;
+}
+.list{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    height: 27px;
+    background-color: transparent;
+    width: 61px;
+    
+    padding-top: 3%;
+    padding-right: 3%;
+    transition: 0.4s ease;
+    cursor: pointer;
+    padding-bottom: 4px;
+}
+.list:hover{
+    border-bottom: 3px solid rgb(244, 137, 5);
+    color: rgb(244, 137, 5);
+}
+.navigation a{
+    text-decoration: none;
+    
+}
+.list a{
+    text-decoration: none;
+    
+    padding: 15%;
+    padding-top: 20%;
+}
+ul li{
+    text-decoration: none;
+}
+
+.myfoto img{
+    margin-left: 137px;
+    width: 435px;
+    border-radius: 383px;
+    height: 403px;
+    margin-left: 566px;
+}
+.githubprofile img{
+    width: 238px;
+    border-radius: 122px;
+    display: flex;
+    align-items: center;
+    margin-left: 685px;
+}
+.githubid h1{
+    margin-left: 729px;
+    margin-top: 29px;
+}
+
+.Account{
+    color: orange;
+    text-decoration: underline;
+}

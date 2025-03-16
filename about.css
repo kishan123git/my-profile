@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("bg2.jpg");
+    background-size: cover;
+}
+
+.logo img{
+    width: 71px;
+    height: 66px;
+    border-radius: 41px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.logo img:hover{
+    box-shadow: 0px 0px 20px rgb(244, 137, 5);
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+       
+}
+
+.navigation a{
+    text-decoration: none;
+}
+.listtype{
+    backdrop-filter: blur(-10px);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 37px;
+}
+.listtype h1{
+    color: white;
+    margin-left: 28px;
+    transition: 0.4s ease;
+}
+.listtype h1:hover{
+    color: rgb(244, 137, 5);
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    height: 64px;
+    width: 500px;
+}
+
+.list{
+    margin-left: 60px;
+    list-style: none;
+}
+.list{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    height: 27px;
+    background-color: transparent;
+    width: 61px;
+    
+    padding-top: 3%;
+    padding-right: 3%;
+    transition: 0.4s ease;
+    cursor: pointer;
+    padding-bottom: 4px;
+}
+.list:hover{
+    border-bottom: 3px solid rgb(244, 137, 5);
+    color: rgb(244, 137, 5);
+}
+
+.list a{
+    text-decoration: none;
+    
+    padding: 15%;
+    padding-top: 20%;
+}
+.ssc, .hsc,.study{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+section{
+    width: 60%;
+    border: 6px solid white;
+    border-radius: 30px;
+    height: 273px;
+    padding-left: 50px;
+    margin-left: 10%;
+}
+.div h1{
+ margin-top: 60px;
+ color: orange;
+}
+.hsc p, .ssc p, .study p{
+    margin-left: 3%;
+}
+.age{
+    display: flex;
+    align-items: center;
+}
+.age{
+    color: white;
+}
+.age p{
+    margin-left: 11%;
+    
+}
